@@ -1,0 +1,3 @@
+site/config/development/*
+site/logs/*
+git-ftp.py
