@@ -39,12 +39,6 @@
 */
 
 $route['default_controller'] = "welcome";
-$route['prijava'] = "auth/login";
-$route['nov_uporabnik'] = "auth/create_user";
-$route['odjava'] = "pregled/odjava";
-$route['spremeni_geslo'] = "auth/change_password";
-$route['pozabil_geslo'] = "auth/forgot_password";
-$route['scaffolding_trigger'] = "";
 $route['404_override'] = '';
 
 
