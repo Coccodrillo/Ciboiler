@@ -35,7 +35,7 @@ if (defined('ENVIRONMENT'))
 		case 'development':
 			error_reporting(E_ALL);
 		break;
-
+	
 		case 'testing':
 		case 'production':
 			error_reporting(0);
@@ -72,7 +72,7 @@ if (defined('ENVIRONMENT'))
  * NO TRAILING SLASH!
  *
  */
-	$application_folder = 'site';
+	$application_folder = 'application';
 
 /*
  * --------------------------------------------------------------------
